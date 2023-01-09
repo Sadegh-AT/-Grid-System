@@ -4,55 +4,73 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css" />
         <title>Grid System</title>
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/grid.css" />
+        <link rel="stylesheet" href="css/app.css" />
     </head>
+
     <body>
         <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="content yellow"></div>
+            <!-- Header -->
+            <header class="header">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content yellow">Header</div>
+                    </div>
                 </div>
-            </div>
+            </header>
 
-            <div class="row">
-                <div class="col-6">
-                    <div class="content violet"></div>
+            <!-- Banners -->
+            <section class="banners">
+                <div class="row">
+                    <div class="col-12 col-lg-6">
+                        <div class="content violet">Banner</div>
+                    </div>
+                    <div class="col-12 col-lg-6">
+                        <div class="content violet">Banner</div>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <div class="content violet"></div>
-                </div>
-            </div>
+            </section>
 
-            <div class="row">
-                <div class="col-3">
-                    <div class="content pink"></div>
+            <!-- Products -->
+            <section class="products">
+                <div class="row">
+                    <div class="col-6 col-lg-3">
+                        <div class="content pink">Product</div>
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <div class="content pink">Product</div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="content pink">Product</div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="content pink">Product</div>
+                    </div>
                 </div>
-                <div class="col-3">
-                    <div class="content pink"></div>
-                </div>
-                <div class="col-3">
-                    <div class="content pink"></div>
-                </div>
-                <div class="col-3">
-                    <div class="content pink"></div>
-                </div>
-            </div>
+            </section>
 
-            <div class="row">
-                <div class="col-3">
-                    <div class="content green"></div>
+            <!-- Amazing Sales -->
+            <section class="amazing-sales">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="content green">Sale</div>
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <div class="content green">Sale</div>
+                    </div>
                 </div>
-                <div class="col-9">
-                    <div class="content green"></div>
-                </div>
-            </div>
+            </section>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="content yellow"></div>
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="content yellow">Footer</div>
+                    </div>
                 </div>
-            </div>
+            </footer>
         </div>
     </body>
 </html>
